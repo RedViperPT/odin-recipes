@@ -7,13 +7,14 @@
 
 /* Basic page styling */
 body {
-    font-family:  'Fira Sans', 'Arial', sans-serif;
+    font-family: 'Fira Sans', 'Arial', sans-serif;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     line-height: 1.6;
     background-color: #fff5e6;
     text-align: center;
+    color: #472211e8;
 }
 
 ul {
@@ -33,12 +34,16 @@ ul {
 /* Header */
 h1 {
     margin-bottom: 1rem;
-    color: #bc4b05;
+    color: #b2562b;
+    border-bottom: 2px solid #bc4b05;
+    display: inline-block;
 }
+
 /* Links */
 a {
     color: #b2562b;
     text-decoration: none;
+    padding: 5px;
 }
 
 a:hover {
